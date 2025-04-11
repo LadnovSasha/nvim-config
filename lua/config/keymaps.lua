@@ -7,8 +7,6 @@ local opts = { noremap = true, silent = true }
 -- System clipboard
 keymap.set("v", "<C-c>", '"+y', opts)
 keymap.set("v", "<C-x>", '"+d', opts)
-keymap.set("v", "<C-v>", '"+p', opts)
-keymap.set("n", "<C-v>", '"+p', opts)
 keymap.set("n", "<C-c>", '"+yy', opts)
 keymap.set("n", "<C-x>", '"+dd', opts)
 -- Resize window
